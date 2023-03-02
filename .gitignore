@@ -9,6 +9,7 @@
 
 # PDF y txt #
 *.pptx
+*.pdf
 *.docx
 *.idx
 *.bin
