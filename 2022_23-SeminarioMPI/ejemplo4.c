@@ -9,5 +9,18 @@ int main(int argc, char* argv[])
     MPI_Comm_size(MPI_COMM_WORLD, &size);
 	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
-    
+    if(size != 2)
+    {
+        if(rank==0)
+        {
+            "Ejecuta este programa con 2 procesos. \n";       
+        }
+    }
+    else
+    {
+        if(rank == 0)
+        {
+            
+        }    
+    }
 }
